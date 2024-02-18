@@ -1,0 +1,39 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;500;700&family=Oswald:wght@200;300;400;500;700&family=Roboto:wght@100;300;700&family=Teko:wght@300;400;700&family=Ubuntu+Condensed&display=swap');
+
+@font-face {
+	font-family: Dephilia;
+	src: url('/fonts/Diphylleia-Regular.ttf');
+}
+
+@font-face {
+	font-family: RejdhaniBold;
+	src: url('/fonts/Rajdhani-Bold.ttf');
+}
+
+@font-face {
+	font-family: RejdhaniMedium;
+	src: url('../../public/fonts/Rajdhani-Medium.ttf');
+}
+
+body {
+	--color-default: #222020;
+	--color-text-default: #222020;
+	--color-default-grey: #b3b0b0;
+	--color-yellow: #ffde00;
+	--color-blue: rgb(4, 4, 146);
+	--color-white: #ffffff;
+	--color-theme-main: #056943;
+	--color-theme-price: #c60c0c;
+	--color-theme-gray: #f4f4f4;
+
+	--fontIBM: 'IBM Plex Mono', monospace;
+	--fontOswald: 'Oswald', sans-serif;
+	--fontRoboto: 'Roboto', sans-serif;
+	--fontTeko: 'Teko', sans-serif;
+	--fontUbuntu: 'Ubuntu Condensed', sans-serif;
+	--fontDephilia: 'Dephilia', sans-serif;
+	--fontRejdhaniBold: 'RejdhaniBold', sans-serif;
+	--fontRejdhaniMedium: 'RejdhaniMedium', sans-serif;
+}

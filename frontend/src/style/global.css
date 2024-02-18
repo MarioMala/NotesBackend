@@ -1,0 +1,46 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	font-size: 68.5%;
+	background-color: var(--color-theme-gray);
+	color: var(--color-white);
+	font-family: var(--fontRejdhaniBold);
+}
+
+#root {
+	width: 100%;
+	max-width: 1740px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--color-default-grey);
+}
+
+button {
+	cursor: pointer;
+}
+
+h1 {
+	font-size: 3rem;
+}
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+input {
+	outline: none;
+	border: none;
+}
